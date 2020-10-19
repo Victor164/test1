@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Тест</title>
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <script defer src="src/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </head>
+<body>
+  <div id="header">
+    <div class="logo">
+      <a href="#">Logo</a>
+    </div>
+    <nav>
+      <form class="search" action="search.php">
+        <input name="q" placeholder="Search..." type="search">
+      </form>
+      <ul>
+        <li>
+          <a href="">Элемент 1</a>
+        </li>
+        <li>
+          <!-- <input type="checkbox" name="toggle" class="toggleSubmenu" id="sub_m1"> -->
+          <a class="dropdown-btn" href="">Элемент 2</a>
+          <!-- <label for="sub_m1" class="toggleSubmenu"><i class="fa"></i></label> -->
+          <ul class="mega-dropdown">
+            <li class="row">
+              <div class="dropdown-container">
+              <ul class="mega-col">
+                <li><a href="#">Элемент 2.1</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li class="dropdown-header"><a href="#">Элемент 2.2</a></li>
+                <li><a id="new" href="#">Элемент 2.2.1</a></li>
+                <li><a id="new" href="#">Элемент 2.2.2</a></li>
+                <li><a id="new" href="#">Элемент 2.2.3</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li class="dropdown-header"><a href="#">Элемент 2.3</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li class="dropdown-header"><a href="#">Элемент 2.4</a></li>
+                <li><a id="new" href="#">Элемент 2.4.1</a></li>
+                <li><a id="new" href="#">Элемент 2.4.2</a></li>
+                <li><a id="new" href="#">Элемент 2.4.3</a></li>
+                <li><a id="new" href="#">Элемент 2.4.4</a></li>
+                <li><a id="new" href="#">Элемент 2.4.5</a></li>
+                <li><a id="new" href="#">Элемент 2.4.6</a></li>
+                <li><a id="new" href="#">Элемент 2.4.7</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li class="dropdown-header"><a href="#">Элемент 2.5</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li class="dropdown-header"><a href="#">Элемент 2.6</a></li>
+              </ul>
+            </div>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Элемент 3</a>
+        </li>
+        <li>
+          <a href="">Элемент 4</a>
+          <ul class="mega-dropdown">
+            <li class="row">
+              <ul class="mega-col">
+                <li><a href="#">Элемент 4.1</a></li>
+              </ul>
+              <ul class="mega-col">
+                <li><a href="#">Элемент 4.2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="">Элемент 5</a>
+        </li>
+        <li>
+          <a href="">Элемент 6</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</body>
+</html>
